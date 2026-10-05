@@ -1,0 +1,29 @@
+# Python virtual environment
+venv/
+backend/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# API keys / environment variables
+.env
+backend/.env
+
+# macOS
+.DS_Store
+
+# Frontend - later
+node_modules/
+.next/
+# Local model caches and recordings
+models/
+.whisper/
+uploads/
+backend/models/
+backend/uploads/
+*.tsbuildinfo
+
+# Private environment variants at any depth; keep shareable templates
+.env.*
+!.env.example
