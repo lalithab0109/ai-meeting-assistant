@@ -10,8 +10,8 @@ export function Header() {
         MeetingAI
       </a>
       <nav aria-label="Main navigation" className="flex items-center gap-6 text-[13px] text-[#99999f]">
-        <a className="transition-colors hover:text-[#ededf0]" href="#how-it-works">How it works</a>
-        <a href="#github-placeholder" aria-label="GitHub repository — coming soon" title="GitHub repository coming soon" className="transition-colors hover:text-[#ededf0]">
+        <a className="transition-colors hover:text-[#ededf0]" href="https://github.com/lalithab0109/ai-meeting-assistant#architecture" target="_blank" rel="noopener noreferrer">How it works</a>
+        <a href="https://github.com/lalithab0109/ai-meeting-assistant" target="_blank" rel="noopener noreferrer" aria-label="GitHub repository" title="GitHub repository" className="transition-colors hover:text-[#ededf0]">
           <Github size={18} strokeWidth={1.5} aria-hidden="true" />
         </a>
       </nav>
